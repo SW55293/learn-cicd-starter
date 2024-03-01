@@ -19,4 +19,4 @@ jobs:
           go-version: '1.20'
 
       - name: Go Test
-        run: go test -cover notely_test.go
+        run: go test -cover ./... 
